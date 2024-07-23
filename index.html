@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Muhammad Fikri Hizbullah - Dokter Spesialis</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Dr. Muhammad Fikri Hizbullah</h1>
+            <nav>
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#layanan">Layanan</a></li>
+                    <li><a href="#tentang">Tentang Saya</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Beranda -->
+    <section id="beranda">
+        <div class="container">
+            <h2>Selamat Datang di Website Saya</h2>
+            <p>Saya Dr. Muhammad Fikri Hizbullah, dokter spesialis dengan fokus pada hewan. Saya siap membantu Anda.</p>
+        </div>
+    </section>
+
+    <!-- Layanan -->
+    <section id="layanan">
+        <div class="container">
+            <h2>Layanan</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Konsultasi Medis</h3>
+                    <p>Menyediakan konsultasi medis yang komprehensif untuk pasien.</p>
+                </div>
+                <div class="service">
+                    <h3>Perawatan Preventif</h3>
+                    <p>Memberikan perawatan preventif untuk menjaga kesehatan optimal.</p>
+                </div>
+                <div class="service">
+                    <h3>Prosedur Medis</h3>
+                    <p>Melakukan berbagai prosedur medis dengan keahlian dan perhatian.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Saya -->
+    <section id="tentang">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <img src="makhluk.jpg" width="150" "Foto Profil">
+            <p>Saya adalah dokter spesialis dengan pengalaman lebih dari 10 tahun di bidang ini.</p>
+            <p>Saya percaya pada pelayanan yang berkualitas dan konsisten untuk setiap pasien.</p>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+        <div class="container">
+            <h2>Kontak</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dr. Muhammad Fikri Hizbullah. Hak Cipta Dilindungi Undang-Undang.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
